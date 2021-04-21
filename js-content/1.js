@@ -172,7 +172,23 @@ document.write( '</div>\n' );
 document.write('<div id=\"disqus_thread\"></div>')
  
 document.write( '  </main>' );
-document.write( '<script> var disqus_config = function () { this.page.url = \'https://mock-test.colonelvyas.co.in/tat-1\'; this.page.identifier = \'36485\'; }; (function() { // DON\'T EDIT BELOW THIS LINE var d = document, s = d.createElement(\'script\'); s.src = \'https://ppdt-mock.disqus.com/embed.js\'; s.setAttribute(\'data-timestamp\', +new Date()); (d.head || d.body).appendChild(s); })(); </script>' );
+document.write( '<script>\n' );
+document.write( '    /**\n' );
+document.write( '    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n' );
+document.write( '    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */\n' );
+document.write( '    /*\n' );
+document.write( '    var disqus_config = function () {\n' );
+document.write( '    this.page.url = https://mock-test.colonelvyas.co.in/tat-1;  // Replace PAGE_URL with your page\'s canonical URL variable\n' );
+document.write( '    this.page.identifier = 36485; // Replace PAGE_IDENTIFIER with your page\'s unique identifier variable\n' );
+document.write( '    };\n' );
+document.write( '    */\n' );
+document.write( '    (function() { // DON\'T EDIT BELOW THIS LINE\n' );
+document.write( '    var d = document, s = d.createElement(\'script\');\n' );
+document.write( '    s.src = \'https://ppdt-mock.disqus.com/embed.js\';\n' );
+document.write( '    s.setAttribute(\'data-timestamp\', +new Date());\n' );
+document.write( '    (d.head || d.body).appendChild(s);\n' );
+document.write( '    })();\n' );
+document.write( '</script>' );
 document.write('<script id=\"dsq-count-scr\" src=\"//ppdt-mock.disqus.com/count.js\" async></script>');
 document.write('<script src=\"basics/basics.js\"></script>');
 ocument.write('<script src=\"coment/dis.js\"></script>')
