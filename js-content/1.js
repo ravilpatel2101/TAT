@@ -33,7 +33,7 @@ document.write( '      </li>\n' );
  
 document.write( '      \n' );
 document.write( '      <li class=\"nav-item\">\n' );
-document.write( '        <a href=\"#\" class=\"nav-link\">\n' );
+document.write( '        <a href=\"https://colonelvyas.co.in\" class=\"nav-link\">\n' );
 document.write( '          <svg\n' );
 document.write( '            aria-hidden=\"true\"\n' );
 document.write( '            focusable=\"false\"\n' );
@@ -142,7 +142,7 @@ document.write( '        <ul type=\"square\"> \n' );
 document.write( '          <li>You can practice for TAT - Thematic Apperception Test over here for unlimited times.</li>\n' );
 document.write( '          <li>Do check out the solutions after attempting the test so you can actually test yourself properly.</li>\n' );
 document.write( '          <li>Use full screen for best result and mobile users can use landscape orientation for best performance.</li>\n' );
-document.write( '          <li>Do share a review in the comment section, so we can improve our system as well as get motivated to work more.</li>\n' );
+document.write( '          <li>Do share your answers to us on our email id so that you can have improvement scopes. Email id: mock.tat1@colonelvyas.co.in</li>\n' );
 document.write( '        </ul>\n' );
 document.write( '      </div>\n' );
 document.write( '      <div class=\"column5\">\n' );
@@ -169,10 +169,7 @@ document.write( '      \n' );
 document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
-document.write('<div id=\"disqus_thread\"></div>')
  
 document.write( '  </main>' );
-document.write('<script id=\"dsq-count-scr\" src=\"//ppdt-mock.disqus.com/count.js\" async></script>');
 document.write('<script src=\"basics/basics.js\"></script>');
-document.write('<script src=\"coment/dis.js\"></script>');
 document.write('</body>');
